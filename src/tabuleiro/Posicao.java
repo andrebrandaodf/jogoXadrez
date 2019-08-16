@@ -13,14 +13,14 @@ public class Posicao {
 	public int getLinhas() {
 		return this.linhas;
 	}
-	public void getColunas(int colunas) {
-		this.colunas = colunas;
+	public int getColunas() {
+		return this.colunas;
 	}
 	
-	public int setLinhas() {
-		return this.linhas;
+	public void setLinhas(int linhas) {
+		this.linhas = linhas;
 	}
-	public void setColunas() {
+	public void setColunas(int colunas) {
 		this.colunas = colunas;
 	}
 	

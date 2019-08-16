@@ -24,4 +24,11 @@ public class Borda {
 	public void setColunas(int colunas) {
 		this.colunas = colunas;
 	}
+	
+	public Pecas pecas(int linha, int coluna) {
+		return pecas[linha][coluna]; 
+	}
+	public Pecas pecas(Posicao posicao) {
+		return pecas[posicao.getLinhas()][posicao.getColunas()];
+	}
 }
